@@ -12,6 +12,7 @@ After completing the exploratory data analysis (EDA), the study moved on to the 
 IV.	RESULT
 --------------
 The Exploratory Data Analysis (EDA) revealed numerous critical findings, including a 16% turnover rate. Although this figure appears to be low, it nevertheless represents a possible loss of key clients to competitors. According to the age distribution research, the bulk of clients are in the core middle age category, followed by the medium age group. The older and younger age groups, which have lesser network activity, are at the bottom of this distribution.
+
 Finally, the EDA examined the impact of customer complaints on turnover rates. consumers who did not file complaints had a relatively low turnover rate, but a significant number of consumers who filed complaints were more likely to quit. This conclusion is consistent with the expectation that disgruntled consumers will cease service.
 The original dataset, which was already in integer format, was used for the predictive modelling part of the study. Because the data required no further feature engineering, the recommended machine learning techniques could be used directly.
 The findings below exhibit the performance details of two machine learning models, Logistic Regression and Random Forest, used to forecast customer attrition in a telecom scenario. Let's compare the two models based on each metric:
