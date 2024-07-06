@@ -15,11 +15,12 @@ The Exploratory Data Analysis (EDA) revealed numerous critical findings, includi
 
 Finally, the EDA examined the impact of customer complaints on turnover rates. consumers who did not file complaints had a relatively low turnover rate, but a significant number of consumers who filed complaints were more likely to quit. This conclusion is consistent with the expectation that disgruntled consumers will cease service.
 The original dataset, which was already in integer format, was used for the predictive modelling part of the study. Because the data required no further feature engineering, the recommended machine learning techniques could be used directly.
+
 The findings below exhibit the performance details of two machine learning models, Logistic Regression and Random Forest, used to forecast customer attrition in a telecom scenario. Let's compare the two models based on each metric:
 TABLE I. 	MODEL EVALUATION
-Model	Accuracy	Precision	Recall	F1 Score	ROC AUC Score
-LR	0.85	0.42	0.15	0.22	.056
-RF	0.95	0.81	0.82	0.81	0.893
+| Model	Accuracy	Precision	Recall	F1 Score	ROC AUC Score
+| LR	0.85	0.42	0.15	0.22	.056
+| RF	0.95	0.81	0.82	0.81	0.893
 
 VI.	CONCLUSION
 --------------
